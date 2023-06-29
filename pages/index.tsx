@@ -27,8 +27,8 @@ const Home: NextPage = () => {
           <div className={styles.heroAssetFrame}>
             <Image
               src="/hero-asset.png"
-              width={860}
-              height={540}
+              width={300}
+              height={300}
               alt="Hero asset, NFT marketplace"
               quality={100}
               className={styles.heroAsset}
@@ -37,33 +37,11 @@ const Home: NextPage = () => {
           <div className={styles.heroBodyContainer}>
             <div className={styles.heroBody}>
               <h1 className={styles.heroTitle}>
-                <span className={styles.heroTitleGradient}>
-                  Pixxel NFT Marketplace
-                </span>
-                <br />
-                
+                Pixxel NFT Marketplace
               </h1>
-              <p className={styles.heroSubtitle}>
-                <Link
-                  className={styles.link}
-                  href="https://thirdweb.com"
-                  target="_blank"
-                >
-                  
-                </Link>{" "}
-                 <b>pixxel art world</b> <i></i>
-              </p>
-
               <div className={styles.heroCtaContainer}>
                 <Link className={styles.heroCta} href="/buy">
                   Get Started
-                </Link>
-                <Link
-                  className={styles.secondaryCta}
-                  href="https://www.linkedin.com/in/mtuncaytas/"
-                  target="_blank"
-                >
-                  Linkedin
                 </Link>
               </div>
             </div>
